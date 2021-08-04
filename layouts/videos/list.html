@@ -1,0 +1,33 @@
+{{ define "main" }}
+{{.Content}}
+{{ range .Pages }}
+<div class="columns" id="video-columns">
+  <div class="column is-one-fifth">
+    <div class="thumbnail-container">
+      <div class="thumbnail is-one-fifth">
+        <a href="{{.URL}}"> <img src="/img/banner.jpg" alt="unicycle vidéo">
+        </a>
+        <div class="thumbnail-play-btn">
+          <i class="fas fa-play icon"></i>
+        </div>
+      </div>
+      <div class="video-info">
+        <strong>{{ .Summary }}</strong> <br>
+        {{ dateFormat "Monday, Jan 2, 2006" .Date }}
+      </div>
+    </div>
+  </div>
+  <div class="column is-four-fith">
+    <div class="video-description">
+      <!-- TODO probably put a .Content or define a variable in .md to place here -->
+      <p>This video shows a species of homo sapien learning it's primary method
+         of locomotion : the unicycle. As we can see it has great difficult to execute
+       even the simplest task. However it will learn and soon will grow to become a full
+     grown individual capable of sustaining itself and provide for others..</p>
+    </div>
+  </div>
+  <hr>
+  <hr>
+</div>
+{{ end }}
+{{ end }}

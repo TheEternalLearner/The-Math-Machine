@@ -1,0 +1,61 @@
+{{ define "main" }}
+
+<h1 class="title is-1" id="lesson-title">{{ .Content }}</h1>
+<div class="tabs is-centered is-boxed">
+  <ul>
+    <li class="is-active">
+      <a>
+        <span class="icon is-small"><i class="fas fa-universal-access"></i></span>
+        <span>Tous</span>
+      </a>
+    </li>
+    <li>
+      <a>
+        <span class="icon is-small"><i class="fas fa-shapes"></i></span>
+        <span>Algèbre</span>
+      </a>
+    </li>
+    <li>
+      <a>
+        <span class="icon is-small"><i class="fas fa-square-root-alt"></i></span>
+        <span>Analyse</span>
+      </a>
+    </li>
+  </ul>
+</div>
+{{ range .Pages }}
+     <div style="border: 1px solid black; margin:10px; padding:10px; ">
+          <div class="lesson">
+               <a href="{{.URL}}">{{.Title}}</a>
+          </div>
+     </div>
+
+<!--  test
+<div class="tabs">
+  <div class="tab">
+    <input type="radio" id="tab-1" name="tab-group-1" checked>
+    <label for="tab-1">Tab One</label>
+    <div class="content">
+      <p>Stuff for Tab One</p>
+    </div>
+  </div>
+  <div class="tab">
+    <input type="radio" id="tab-2" name="tab-group-1">
+    <label for="tab-2">Tab Two</label>
+    <div class="content">
+      <p>Stuff for Tab Two</p>
+      <img src="//placekitten.com/200/100">
+    </div>
+  </div>
+  <div class="tab">
+    <input type="radio" id="tab-3" name="tab-group-1">
+    <label for="tab-3">Tab Three</label>
+    <div class="content">
+      <p>Stuff for Tab Three</p>
+      <img src="//placekitten.com/200/100">
+    </div>
+  </div>
+</div>
+ -->
+{{ end }}
+{{ end }}

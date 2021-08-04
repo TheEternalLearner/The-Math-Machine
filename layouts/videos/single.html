@@ -1,0 +1,9 @@
+{{ define "main" }}
+
+<div class="video-wrapper">
+  <video src="/videos/{{ .Title }}.mp4" class="video" autoplay controls poster="" preload="metadata">
+
+  </video>
+</div>
+<h2>{{ .Title }}</h2>
+{{ end }}
