@@ -1,6 +1,8 @@
 ---
-title: "Leçon_108"
+title: "Leçon 108 : Exemple de partie génératrice d'un groupe. Applications."
 date: 2021-08-03T16:28:56+02:00
 draft: true
 type: leçons
+number: 108
+tags: ["algèbre"]
 ---

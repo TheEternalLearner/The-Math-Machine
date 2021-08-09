@@ -40,11 +40,13 @@
  top: 50%;
  left: 50%;
  margin-left: -22px;
- margin-top: -25px
+ margin-top: -25px;
+ z-index: 12;
 }
 
 .thumbnail-container .thumbnail .thumbnail-play-btn .icon {
   font-size: 50px;
+  color: #363636;
 }
 
 .thumbnail-container .video-info {
@@ -67,17 +69,15 @@
 }
 
 .banner .banner-image {
-/*  position: relative;*/
   width: 100%;
-  height: 970px;
+  height: 100vh;
 }
 
 .banner .banner-content {
   width: 100%;
   text-align: center;
   top: 40%;
-  background-color: #363636;
-  opacity: 0.9;
+  background-image: linear-gradient(rgba(54,54,54, 0.7),rgba(54,54,54, 0.95), rgba(54,54,54,1));
   height: 70%;
   position: absolute;
 }
@@ -92,10 +92,75 @@
 
 /* LESSONS */
 
+.tabs {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.tabs input[type="radio"] {
+  display: none;
+}
+
+.tabs label {
+  border:none;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.tabs .tab {
+  border-top: solid;
+  border-width: thin;
+  border-color: #dbdbdb;
+  width: 100%;
+  padding: 20px;
+  order: 1;
+  display: none;
+}
+
+.tabs .tab label {
+  text-decoration: none;
+}
+
+
+.tabs input[type="radio"]:checked + label + .tab {
+  display: block;
+}
+
+.tabs input[type="radio"]:checked + label {
+  border:solid;
+  border-bottom: none;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-color: #dbdbdb;
+  border-width: thin;
+  margin-left: 20px;
+  margin-right: 20px;
+  z-index: 1000;
+}
 
 .lesson {
   text-align: center;
 }
+
+#lesson-title {
+  margin-left: 10%;
+}
+
+/* PDF links */
+
+.pdf-link {
+  padding: 20px;
+}
+.pdf-icon {
+  font-size: 60px;
+  color: #c70000;
+}
+
+.pdf-title:hover {
+  color: blue;
+}
+
 /* FOOTER */
 
 .footer {
