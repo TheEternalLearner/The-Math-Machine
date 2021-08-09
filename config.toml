@@ -1,6 +1,8 @@
-baseURL = "http://example.org/"
+baseURL = "http://La-Machine-à-Math.com/"
 languageCode = "en-us"
 title = "La Machine à Math"
+
+defaultContentLanguage = 'fr'
 
 [taxonomies]
   tag = "tags"
