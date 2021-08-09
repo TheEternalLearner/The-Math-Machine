@@ -26,13 +26,18 @@
 /* VIDEO THUMBNAIL */
 
 .thumbnail-container {
+  margin: 0;
+  padding: 0;
 }
 
 .thumbnail-container .thumbnail {
   position: relative;
   text-align: center;
-  margin: 15px;
-  padding: 0;
+  margin: 10%;
+  margin-top: 5%;
+  margin-bottom: 0;
+  margin-right: 0;
+  padding: 0px;
 }
 
 .thumbnail-container .thumbnail .thumbnail-play-btn {
@@ -50,16 +55,19 @@
 }
 
 .thumbnail-container .video-info {
-  margin: 15px;
+  margin: 30px;
+  margin-top: 0;
 }
 
 .video-description {
-  margin: 15px;
+  margin-top: 1%;
+  margin-left: 0;
+  padding-left: 0;
 }
 
 #video-columns {
-  border-bottom-color: #f8f8f8;
-  border-bottom-style: groove;
+  border-bottom-color: #dbdbdb;
+  border-bottom-style: solid;
 }
 
 /* BANNER */
@@ -146,11 +154,16 @@
 #lesson-title {
   margin-left: 10%;
 }
+/* DEVELOPMENTS */
 
+#development-title {
+  margin-left: 10%;
+
+}
 /* PDF links */
 
 .pdf-link {
-  padding: 20px;
+  padding: 10%;
 }
 .pdf-icon {
   font-size: 60px;

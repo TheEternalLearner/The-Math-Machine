@@ -6,3 +6,4 @@ defaultContentLanguage = 'fr'
 
 [taxonomies]
   tag = "tags"
+  lesson = "lessons"
