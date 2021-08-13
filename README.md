@@ -10,6 +10,7 @@ This is a hugo generated website for my futur math projects. It uses bulma and f
 
 To install hugo I used one of the following commands :
 > `sudo pacman -S hugo`
+>
 > `yay hugo (install the community/hugo packet )`
 
 However depending on your OS/distribution you can find a more appropriate commad at [install Hugo][1].
