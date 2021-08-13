@@ -25,8 +25,9 @@ use the following command to install the directory:
 
 Run the server locally using the appropriate hugo command :
 > `cd The-Math-Machine`
+>
 > `hugo server -D`
 
-The site should now be accessible at [localhost:1313][2] in your web browser.
+The site should now be accessible at [localhost:1313/][2] in your web browser.
 
-[2]: <localhost:1313>
+[2]: <localhost:1313/>
