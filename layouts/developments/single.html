@@ -2,23 +2,14 @@
 <!-- TODO pour l'instant il y a de la duplication de code avec
  le single.html de leçons  -->
 <div class="columns">
-  <div class="column is-one-fifth">
+  <div class="column is-one-third">
     <!-- this is an empty column -->
+    blabla
   </div>
-  <div class="column is-one-fifth">
-    <div class="pdf-link">
-      <a href="/pdf/developments/{{ .Params.file }}.pdf">
-        <button type="button" name="button">
-          <div class="pdf-icon">
-            <i class="fas fa-file-pdf"></i>
-          </div>
-          <div class="pdf-title">
-            {{ .Title }}
-          </div>
-        </button>
-      </a>
-    </div>
+  <div class="column is-one-fourth">
+another blablabla
   </div>
+  {{ partial "pdf-icon" . }}
 </div>
 
 {{ end }}

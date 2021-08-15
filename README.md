@@ -4,8 +4,6 @@ This is a hugo generated website for my futur math projects. It uses bulma and f
 
 ## Installation
 
-### On linux
-
 #### Hugo
 
 To install hugo I used one of the following commands :
@@ -14,8 +12,6 @@ To install hugo I used one of the following commands :
 > `yay hugo (install the community/hugo packet )`
 
 However depending on your OS/distribution you can find a more appropriate commad at [install Hugo][1].
-
-[1]: <https://gohugo.io/getting-started/installing/>
 
 #### Git
 
@@ -31,4 +27,6 @@ Run the server locally using the appropriate hugo command :
 
 The site should now be accessible at [localhost:1313][2] in your web browser.
 
+<!-- LINKS -->
+[1]: <https://gohugo.io/getting-started/installing/>
 [2]: <http://localhost:1313/>
