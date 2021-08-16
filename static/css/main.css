@@ -160,10 +160,12 @@
   margin-left: 10%;
 
 }
+
 /* PDF links */
 
 .pdf-link {
   padding: 10%;
+  padding-left: 20%;
 }
 .pdf-icon {
   font-size: 60px;
@@ -172,6 +174,10 @@
 
 .pdf-title:hover {
   color: blue;
+}
+
+#possible-developments {
+  text-align: center;
 }
 
 /* FOOTER */

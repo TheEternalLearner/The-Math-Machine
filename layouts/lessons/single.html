@@ -2,6 +2,20 @@
 
 <div class="columns">
   {{ partial "pdf-icon" . }}
+  <div class="column is-three-fifth">
+    {{.Content}}
+  </div>
+  <div class="column is-one-fifth">
+    <h4 class="title is-4" id="possible-developments">développements possible</h4>
+    {{ range .Param.developments }}
+    <!-- TODO: add parameter developments, list them all so they link to the rignt pages -->
+    <div style="border: 1px solid black; margin:10px; padding:10px; ">
+      <div class="development">
+        <a href="{{.lesson}}"></a>
+      </div>
+    </div>
+    {{ end }}
+  </div>
 </div>
 
 {{ end }}
