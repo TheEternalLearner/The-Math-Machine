@@ -154,6 +154,15 @@
 #lesson-title {
   margin-left: 10%;
 }
+
+#possible-developments-title {
+  text-align: center;
+}
+
+.possible-developments {
+  text-align: center;
+}
+
 /* DEVELOPMENTS */
 
 #development-title {
@@ -174,10 +183,6 @@
 
 .pdf-title:hover {
   color: blue;
-}
-
-#possible-developments {
-  text-align: center;
 }
 
 /* FOOTER */

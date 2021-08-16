@@ -6,15 +6,20 @@
     {{.Content}}
   </div>
   <div class="column is-one-fifth">
-    <h4 class="title is-4" id="possible-developments">développements possible</h4>
-    {{ range .Param.developments }}
-    <!-- TODO: add parameter developments, list them all so they link to the rignt pages -->
+    <h4 class="title is-4" id="possible-developments-title">développements possible</h4>
     <div style="border: 1px solid black; margin:10px; padding:10px; ">
-      <div class="development">
-        <a href="{{.lesson}}"></a>
+      <div class="possible-developments">
+        <div class="development">
+          <ul>
+            {{ range .Params.developments }}
+            <li>
+              <a href="{{ "/developments/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
+            </li>
+            {{ end }}
+          </ul>
+        </div>
       </div>
     </div>
-    {{ end }}
   </div>
 </div>
 
