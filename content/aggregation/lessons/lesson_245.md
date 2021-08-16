@@ -6,4 +6,5 @@ url : /agrégation/leçons/245
 type: lessons
 file: "lesson_245"
 tags: ["analyse"]
+developments: ["Dirichlet", "Prolongement Gamma"]
 ---
