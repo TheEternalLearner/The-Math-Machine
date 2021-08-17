@@ -2,6 +2,19 @@
 
 <div class="columns">
   {{ partial "pdf-icon" . }}
+  <div class="column is-three-fifth">
+    {{.Content}}
+  </div>
+  <div class="column is-one-fifth">
+    <h4 class="title is-4" id="possible-lessons-title">Leçons concernés</h4>
+      <div class="possible-lessons">
+          <ul>
+            {{ range .Params.lessons }}
+              <a href="{{ "/lessons/" | relLangURL }}{{ . | urlize }}"><li>{{ . }}</li></a>
+            {{ end }}
+          </ul>
+      </div>
+  </div>
 </div>
 
 {{ end }}
