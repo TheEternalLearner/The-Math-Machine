@@ -4,10 +4,11 @@
 
   <body>
     {{ partial "header/site-header"}}
-    {{ block "main" . }}
-    <hr>
-    <hr>
-    {{ end }}
+    <div class="main-container">
+      {{ block "main" . }}
+
+      {{ end }}
+    </div>
     {{ block "footer" . }}
     {{ partial "footer/site-footer"}}
     {{ end }}
