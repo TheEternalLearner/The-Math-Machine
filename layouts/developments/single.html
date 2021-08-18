@@ -7,13 +7,15 @@
   </div>
   <div class="column is-one-fifth">
     <h4 class="title is-4" id="possible-lessons-title">Leçons concernés</h4>
-      <div class="possible-lessons">
-          <ul>
-            {{ range .Params.lessons }}
-              <a href="{{ "/lessons/" | relLangURL }}{{ . | urlize }}"><li>{{ . }}</li></a>
-            {{ end }}
-          </ul>
-      </div>
+    <div class="possible-lessons">
+        <ul>
+          {{ range .Params.lessons }}
+          <li>
+            <a href="{{ "/lessons/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
+          </li>
+          {{ end }}
+        </ul>
+    </div>
   </div>
 </div>
 

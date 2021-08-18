@@ -161,6 +161,25 @@
 
 .possible-developments {
   text-align: center;
+  margin: 10%;
+  padding: 0;
+  border: 1px solid #4a4a4a;
+  border-radius: 2%;
+  border-bottom: 0;
+}
+
+.possible-developments ul li {
+  text-align: center;
+  padding: 5%;
+  margin: 0;
+  border-bottom: solid 1px #4a4a4a;
+  border-radius: 2%;
+  background-color: #f1f1f1;
+}
+
+.possible-developments ul li:hover {
+  background-color: #fafafa;
+  box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
 }
 
 /* DEVELOPMENTS */
@@ -195,7 +214,6 @@
 .possible-lessons ul li:hover {
   background-color: #fafafa;
   box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
-  z-index: 211;
 }
 
 /* PDF links */
