@@ -11,10 +11,26 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 
 ### Subtitle
+<div class="container">
+   <label for="title1" class="title1">The first title<span>&#9660;</span></label>
+   <input type="checkbox" id="title1" checked="checked">
+   <p class="contentBox1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, doloremque rec
+     ndae unde natus, sapiente illum sunt possimus. Perferendis, expedita fuga.</p>
 
-<h1> html h1 tag</h1>
+   <label for="title2" class="title2">The second title<span>&#9660;</span></label>
+   <input type="checkbox" id="title2" checked="">
+   <p class="contentBox2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, doloremque recusandae unde natus, sapiente illum sunt possimus. Perferendis, expedita fuga.</p>
 
-[! <em>Nisi vitae suscipit tellus mauris a diam maecenas. Lectus vestibulum mattis >!ullamcorper velit. Purus gravida quis blandit turpis. Enim nunc faucibus a >!pellentesque sit amet porttitor eget. Ut porttitor leo a diam sollicitudin tempor >!id. Sed egestas egestas fringilla phasellus. Dui accumsan sit amet nulla facilisi >!morbi. Integer malesuada nunc vel risus commodo viverra maecenas accumsan. Ut >!venenatis tellus in metus vulputate eu scelerisque felis. Egestas sed sed risus >!pretium quam vulputate dignissim.] {.spoiler}</em>
+   <label for="title3" class="title3">The third title<span>&#9660;</span></label>
+   <input type="checkbox" id="title3">
+   <p class="contentBox3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, doloremque recusandae unde natus, sapiente illum sunt possimus. Perferendis, expedita fuga.</p>
+</div>
+<div class="container">
+   <label for="title4" class="title1">The first title<span>&#9660;</span></label>
+   <input type="checkbox" id="title4" checked="checked">
+   <p class="contentBox1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, doloremque rec
+     ndae unde natus, sapiente illum sunt possimus. Perferendis, expedita fuga.</p>
+</div>
 
 ### Subtitle 2
 Ultrices dui sapien eget mi proin sed libero enim sed. Velit euismod in pellentesque massa placerat duis ultricies lacus sed. Aliquet enim tortor at auctor urna nunc id. Eu augue ut lectus arcu bibendum at varius vel pharetra. Turpis egestas maecenas pharetra convallis posuere. Vitae purus faucibus ornare suspendisse sed nisi lacus sed viverra. Consequat nisl vel pretium lectus quam. Nulla aliquet enim tortor at auctor urna nunc. Nunc eget lorem dolor sed. Sed risus pretium quam vulputate dignissim suspendisse. Quis lectus nulla at volutpat. Dolor sed viverra ipsum nunc aliquet bibendum enim facilisis. Ultricies integer quis auctor elit. Orci porta non pulvinar neque laoreet suspendisse interdum. Magna eget est lorem ipsum dolor sit amet consectetur.
