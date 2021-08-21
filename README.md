@@ -38,7 +38,7 @@ The site should now be accessible at [localhost:1313][2] in your web browser.
 - integrate math courses and exercices
     - try to create a spoiler system
 - test how to modify the content (hugo parse function? directly modify .md? etc)
-
+- use variables to create partial to refactor development/lesson templates
 
 ##Ressources
 
