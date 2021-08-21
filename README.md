@@ -30,3 +30,16 @@ The site should now be accessible at [localhost:1313][2] in your web browser.
 <!-- LINKS -->
 [1]: <https://gohugo.io/getting-started/installing/>
 [2]: <http://localhost:1313/>
+
+##TODOS
+
+- integrate Latex to the site in different Areas (titles exercices ...etc)
+- integrate Math games
+- integrate math courses and exercices
+    - try to create a spoiler system
+- test how to modify the content (hugo parse function? directly modify .md? etc)
+
+
+##Ressources
+
+- checkout Math-et-tiques

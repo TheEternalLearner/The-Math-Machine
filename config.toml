@@ -8,3 +8,6 @@ defaultContentLanguage = 'fr'
   tag = "tags"
   lesson = "lessons"
   development = "developments"
+
+[markup.goldmark.renderer]
+  unsafe = true #used to enable custom styling useful to define spoilers
