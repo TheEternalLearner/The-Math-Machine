@@ -16,11 +16,13 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
    <input type="checkbox" id="title1" checked="checked">
    <p class="contentBox1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, doloremque rec
      ndae unde natus, sapiente illum sunt possimus. Perferendis, expedita fuga.</p>
-
+     </div>
+     <div class="container">
    <label for="title2" class="title2">The second title<span>&#9660;</span></label>
    <input type="checkbox" id="title2" checked="">
    <p class="contentBox2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, doloremque recusandae unde natus, sapiente illum sunt possimus. Perferendis, expedita fuga.</p>
-
+   </div>
+   <div class="container">
    <label for="title3" class="title3">The third title<span>&#9660;</span></label>
    <input type="checkbox" id="title3">
    <p class="contentBox3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, doloremque recusandae unde natus, sapiente illum sunt possimus. Perferendis, expedita fuga.</p>
@@ -28,7 +30,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <div class="container">
    <label for="title4" class="title1">The first title<span>&#9660;</span></label>
    <input type="checkbox" id="title4" checked="checked">
-   <p class="contentBox1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, doloremque rec
+   <p class="contentBox4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, doloremque rec
      ndae unde natus, sapiente illum sunt possimus. Perferendis, expedita fuga.</p>
 </div>
 
