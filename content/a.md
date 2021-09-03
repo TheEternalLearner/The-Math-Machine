@@ -11,7 +11,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 
 ### Subtitle
-<div class="container">
+<!-- <div class="container">
    <label for="title1" class="title1">The first title<span>&#9660;</span></label>
    <input type="checkbox" id="title1" checked="checked">
    <p class="contentBox1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, doloremque rec
@@ -32,7 +32,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
    <input type="checkbox" id="title4" checked="checked">
    <p class="contentBox4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, doloremque rec
      ndae unde natus, sapiente illum sunt possimus. Perferendis, expedita fuga.</p>
-</div>
+</div> -->
 
 ### Subtitle 2
 Ultrices dui sapien eget mi proin sed libero enim sed. Velit euismod in pellentesque massa placerat duis ultricies lacus sed. Aliquet enim tortor at auctor urna nunc id. Eu augue ut lectus arcu bibendum at varius vel pharetra. Turpis egestas maecenas pharetra convallis posuere. Vitae purus faucibus ornare suspendisse sed nisi lacus sed viverra. Consequat nisl vel pretium lectus quam. Nulla aliquet enim tortor at auctor urna nunc. Nunc eget lorem dolor sed. Sed risus pretium quam vulputate dignissim suspendisse. Quis lectus nulla at volutpat. Dolor sed viverra ipsum nunc aliquet bibendum enim facilisis. Ultricies integer quis auctor elit. Orci porta non pulvinar neque laoreet suspendisse interdum. Magna eget est lorem ipsum dolor sit amet consectetur.
