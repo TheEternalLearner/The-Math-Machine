@@ -134,7 +134,7 @@ input{display: none;}
   border-bottom-color: #dbdbdb;
   border-bottom-style: solid;
   border-width: 1px;
-  box-shadow: -10px 10px 10px -10px #aaaaaa;
+  box-shadow: 0px 10px 10px -10px #aaaaaa;
 }
 
 .video-line-break {
