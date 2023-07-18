@@ -3,13 +3,32 @@
   position: fixed;
   width: 100%;
   top: 0;
-  padding: 20px;
+  padding: 5px;
+  flex: 1;
+}
+
+.navbar-secondary {
+  width: 100%;
+  padding: 5px;
+  flex: 1;
 }
 #navbar {
   height: 85px;
   width: 100%;
 }
 
+.navbar-wrapper {
+  display: flex;
+  height: 100px;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+}
+.navbar-wrapper-content {
+  display: flex;
+  direction:row-reverse;
+  flex-wrap: wrap;
+}
 /* CONTAINER */
 
 body {

@@ -1,0 +1,47 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.container{width: 80%;}
+
+label{display: block;}
+
+.title1,
+.title2,
+.title3{
+    background: #3333ff;
+    padding: 10px;
+    font-weight: bold;
+    border: .5px solid #eee;
+    cursor: pointer;
+    color: #fff;
+    position: relative;
+}
+
+span{
+    position: absolute;
+    right: 15px;
+    font-size: .8em;
+}
+
+.contentBox1,
+.contentBox2,
+.contentBox3{
+    margin: 0 auto;
+    background: #ddd;
+    padding-left: 10px;
+    height: 0;
+    overflow: hidden;
+    transition: all .5s;
+}
+
+#title1:checked + .contentBox1,
+#title2:checked + .contentBox2,
+#title3:checked + .contentBox3{
+    padding: 20px 0px 20px 10px;
+    height: 50px;
+}
+
+input{display: none;}

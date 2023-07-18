@@ -1,0 +1,12 @@
+{{ define "main" }}
+<h1 class="title is-1"">Les cours</h1>
+<hr>
+{{ range .Pages }}
+<div style="border: 1px solid black; margin:10px; padding:10px; ">
+  <div class="lesson">
+    <a href="/pdf/{{ .Params.type }}/{{ .Params.file }}.pdf">{.Title}}</a>
+  </div>
+</div>
+
+{{ end }}
+{{ end }}

@@ -1,80 +1,99 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 <body>
-  <div class="block" id="navbar">
+
+  <div class="navbar-wrapper" id="navbar">
+
     <nav class="navbar is-dark" role="navigation" aria-label="main navigation">
-      <div class="navbar-brand">
-        <a class="navbar-item">
-          <i class="fas fa-calculator"></i>
-        </a>
+      <div class="navbar-wrapper-content">
 
-
-      </div>
-
-      <div id="navbarBasicExample" class="navbar-menu">
-        <div class="navbar-start">
-          <a class="navbar-item" href="/">
-            La machine à Math
+        <div class="navbar-brand">
+          <a class="navbar-item">
+            <i class="fas fa-calculator"></i>
           </a>
         </div>
 
-        <div class="navbar-end">
-          <div class="navbar-item has-dropdown is-hoverable">
-            <a class="navbar-link">
-              Cours de Math
+        <div id="homepage" class="navbar-menu">
+          <div class="navbar-start">
+            <a class="navbar-item" href="/">
+              La machine à Math
             </a>
-
-            <div class="navbar-dropdown">
-              <a class="navbar-item" href="/videos/">
-                <span class="icon-text">
-                  <span class="icon">
-                    <i class="fas fa-film"></i>
-                  </span>
-                  <span>Vidéos</span>
-                </span>
-              </a>
-              <a class="navbar-item">
-                <span class="icon-text">
-                  <span class="icon">
-                    <i class="fas fa-file-pdf"></i>
-                  </span>
-                  <span>Cours</span>
-                </span>
-              </a>
-              <a class="navbar-item">
-                <span class="icon-text">
-                  <span class="icon">
-                    <i class="fas fa-pencil-alt"></i>
-                  </span>
-                  <span>Exercices</span>
-                </span>
-              </a>
-
-            </div>
           </div>
-          <div class="navbar-item has-dropdown is-hoverable">
-            <a class="navbar-link">
-              Agrégation
+        </div>
+
+
+          <div class="navbar-end">
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link">
+                Cours de Math
+              </a>
+              <div class="navbar-dropdown">
+                <a class="navbar-item" href="/videos/">
+                  <span class="icon-text">
+                    <span class="icon">
+                      <i class="fas fa-film"></i>
+                    </span>
+                    <span>Vidéos</span>
+                  </span>
+                </a>
+                <a class="navbar-item">
+                  <span class="icon-text">
+                    <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                    </span>
+                    <span>Cours</span>
+                  </span>
+                </a>
+                <a class="navbar-item">
+                  <span class="icon-text">
+                    <span class="icon">
+                      <i class="fas fa-pencil-alt"></i>
+                    </span>
+                    <span>Exercices</span>
+                  </span>
+                </a>
+              </div>
+            </div>
+
+
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link">
+                Agrégation
+              </a>
+              <div class="navbar-dropdown">
+                <a class="navbar-item" href="/agrégation/leçons/">
+                  Leçons
+                </a>
+                <a class="navbar-item" href="/agrégation/développements/">
+                  Développements
+                </a>
+
+              </div>
+            </div>
+            <a class="navbar-item" href="/contact/">
+              Contact
             </a>
-            <div class="navbar-dropdown">
-              <a class="navbar-item" href="/agrégation/leçons/">
-                Leçons
-              </a>
-              <a class="navbar-item" href="/agrégation/développements/">
-                Développements
-              </a>
-
-            </div>
+            <a class="navbar-item">
+            </a>
           </div>
+
+        </div>
+      </nav>
+
+    <!-- secondary navbar -->
+      <nav class="navbar-secondary is-light" role="navigation" >
+        <div class="navbar-wrapper-content">
           <a class="navbar-item" href="/contact/">
             Contact
           </a>
           <a class="navbar-item">
-
           </a>
+        </div>
+      </nav>
 
-    </nav>
+    </div>
   </div>
+
 </body>
 
 </html>

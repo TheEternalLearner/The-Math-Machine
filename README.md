@@ -31,7 +31,13 @@ The site should now be accessible at [localhost:1313][2] in your web browser.
 [1]: <https://gohugo.io/getting-started/installing/>
 [2]: <http://localhost:1313/>
 
+<!-- WARNING : type http and not https-->
+
 ##TODOS
+
+- create secondary navbar (collège, lycée, supérieur)
+- create a contact page
+- create a video templates (4x4 or 5x5 table)
 
 - integrate Latex to the site in different Areas (titles exercices ...etc)
 - integrate Math games
