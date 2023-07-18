@@ -15,7 +15,7 @@
 
     <div style="border: 1px solid black; margin:10px; padding:10px; ">
       <div class="lesson">
-        <a href="{{.URL}}">{{.Title}}</a>
+        <a href="{{.RelPermalink}}">{{.Title}}</a>
       </div>
     </div>
     {{ end }}
@@ -38,7 +38,7 @@
     {{ if in .Params.tags "algèbre"}}
     <div style="border: 1px solid black; margin:10px; padding:10px; ">
       <div class="lesson">
-        <a href="{{.URL}}">{{.Title}}</a>
+        <a href="{{.RelPermalink}}">{{.Title}}</a>
       </div>
     </div>
     {{ end }}
@@ -58,7 +58,7 @@
     {{ if in .Params.tags "analyse"}}
     <div style="border: 1px solid black; margin:10px; padding:10px; ">
       <div class="lesson">
-        <a href="{{.URL}}">{{.Title}}</a>
+        <a href="{{.RelPermalink}}">{{.Title}}</a>
       </div>
     </div>
     {{ end }}
