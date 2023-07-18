@@ -50,3 +50,6 @@ Makefile
 
 #video
 *.mp4
+
+#token
+*.tok
