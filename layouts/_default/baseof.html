@@ -6,12 +6,12 @@
     {{ partial "header/site-header"}}
     <div class="flex main-container">
       {{ partial "sidebar/sidebar"}}
-      {{ block "main" . }}
-
-      {{ end }}
+      <div> 
+        {{ block "main" . }}
+        {{ end }}
+      </div>
     </div>
-    {{ block "footer" . }}
     {{ partial "footer/site-footer"}}
-    {{ end }}
+    
   </body>
 </html>
